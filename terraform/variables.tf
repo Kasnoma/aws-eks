@@ -15,3 +15,6 @@ variable "aws_region" {
   default = "us-west-1"
   description = "aws region"
 }
+variable "ecr_repo" {
+  default = "voting-app-ecr"
+}
