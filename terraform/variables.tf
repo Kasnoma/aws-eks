@@ -8,13 +8,10 @@ variable "vpc_cidr" {
   description = "default CIDR range of the VPC"
 }
 variable "aws_region" {
-  default = "us-west-1"
+  default = "eu-west-2"
   description = "aws region"
 }
-variable "aws_region" {
-  default = "us-west-1"
-  description = "aws region"
-}
+
 variable "ecr_repo" {
   default = "voting-app-ecr"
 }
